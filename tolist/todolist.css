@@ -1,0 +1,89 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+.container {
+	width: 600px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+form {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+input[type="text"] {
+	flex-grow: 1;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+button[type="submit"] {
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	padding: 20px;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+}
+
+li img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.song-name {
+	font-weight: bold;
+}
+
+.play-button,.delete-button {
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+.play-button:hover,.delete-button:hover {
+	background-color: #3e8e41;
+}
+
+.progress-bar {
+	width: 100%;
+	height: 20px;
+	background-color: #ddd;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.progress {
+	width: 50%;
+	height: 20px;
+	background-color: #4CAF50;
+	border-radius: 10px;
+}
